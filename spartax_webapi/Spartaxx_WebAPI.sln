@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spartaxx_WebAPI", "Spartaxx_WebAPI\Spartaxx_WebAPI.csproj", "{AFC23790-4099-4506-87AA-93903261FD5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Spartaxx.BusinessService", "Spartaxx.BusinessService", "{A4912EAB-A8DA-465A-BFF0-D8AFD1CBBF69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spartaxx.BusinessService", "Spartaxx.BusinessService\Spartaxx.BusinessService.csproj", "{AE4D33AD-BA21-48EF-9B09-9476A07029B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Spartaxx.DataAccess", "Spartaxx.DataAccess", "{FD08C90E-756D-4A16-B05C-724E527F44E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spartaxx.DataAccess", "Spartaxx.DataAccess\Spartaxx.DataAccess.csproj", "{E6DAFB9B-312B-41A0-B78E-ACE209436175}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Spartaxx.Common", "Spartaxx.Common", "{15CE7BA8-6BBC-4741-82CB-4A6EC7EA152A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spartaxx.Common", "Spartaxx.Common\Spartaxx.Common.csproj", "{31562709-13BA-46E4-82D5-17C74545ADC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFC23790-4099-4506-87AA-93903261FD5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC23790-4099-4506-87AA-93903261FD5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC23790-4099-4506-87AA-93903261FD5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC23790-4099-4506-87AA-93903261FD5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE4D33AD-BA21-48EF-9B09-9476A07029B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE4D33AD-BA21-48EF-9B09-9476A07029B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE4D33AD-BA21-48EF-9B09-9476A07029B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE4D33AD-BA21-48EF-9B09-9476A07029B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6DAFB9B-312B-41A0-B78E-ACE209436175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6DAFB9B-312B-41A0-B78E-ACE209436175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6DAFB9B-312B-41A0-B78E-ACE209436175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6DAFB9B-312B-41A0-B78E-ACE209436175}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31562709-13BA-46E4-82D5-17C74545ADC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31562709-13BA-46E4-82D5-17C74545ADC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31562709-13BA-46E4-82D5-17C74545ADC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31562709-13BA-46E4-82D5-17C74545ADC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE4D33AD-BA21-48EF-9B09-9476A07029B5} = {A4912EAB-A8DA-465A-BFF0-D8AFD1CBBF69}
+		{E6DAFB9B-312B-41A0-B78E-ACE209436175} = {FD08C90E-756D-4A16-B05C-724E527F44E5}
+		{31562709-13BA-46E4-82D5-17C74545ADC8} = {15CE7BA8-6BBC-4741-82CB-4A6EC7EA152A}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://teamsrv:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Spartaxx.Common\\Spartaxx.Common.csproj
+		SccProjectTopLevelParentUniqueName1 = Spartaxx_WebAPI.sln
+		SccProjectName1 = Spartaxx.Common
+		SccLocalPath1 = Spartaxx.Common
+		SccProjectUniqueName2 = Spartaxx.DataAccess\\Spartaxx.DataAccess.csproj
+		SccProjectTopLevelParentUniqueName2 = Spartaxx_WebAPI.sln
+		SccProjectName2 = Spartaxx.DataAccess
+		SccLocalPath2 = Spartaxx.DataAccess
+		SccProjectUniqueName3 = Spartaxx.BusinessService\\Spartaxx.BusinessService.csproj
+		SccProjectTopLevelParentUniqueName3 = Spartaxx_WebAPI.sln
+		SccProjectName3 = Spartaxx.BusinessService
+		SccLocalPath3 = Spartaxx.BusinessService
+		SccProjectUniqueName4 = Spartaxx_WebAPI\\Spartaxx_WebAPI.csproj
+		SccProjectName4 = Spartaxx_WebAPI
+		SccLocalPath4 = Spartaxx_WebAPI
+	EndGlobalSection
+EndGlobal

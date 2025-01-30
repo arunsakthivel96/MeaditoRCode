@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<email>
+  <from>SpartaxxDevTeam@poconnor.com;</from>
+  <fromOutofTexas>SpartaxxDevTeam</fromOutofTexas>
+  <!--  sujithras@parkisolutions.com; Spartaxxinvoices@parkisolutions.com -->
+  <bcc>SaravananS@poconnor.com;</bcc>
+  <subject>Property Tax Invoice</subject>
+  <subjectRegeneration>Property Tax- Revised invoice</subjectRegeneration>
+  <Salutation>Dear </Salutation>
+  <body>
+    <![CDATA[
+    <p>Thank you for the opportunity to help you reduce your property taxes!<br/><br/>
+	Please find the invoice for your property(s) .<br/><br/>
+	You can also log in the client portal (https://clientportal.poconnor.com) to view the following set of client options:<br/><br/>
+	&nbsp; &nbsp; 1) Properties - view value notice, hearing status, hearing results, add additional properties for protest.<br/>
+	&nbsp; &nbsp; 2) Payments - review invoices, make payments.<br/>
+	&nbsp; &nbsp; 3) Profile - view & update contact information.<br/>
+	&nbsp; &nbsp; 4) Account Summary - view 3 years of initial values and final values, option to download/print a copy.<br/>
+	&nbsp; &nbsp; 5) Documents - view existing documents, sign required documents electronically.<br/>
+	&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; (Appointment of Agent, Customer Agreement, Property Survey)<br/><br/>
+	
+	If you have any questions/concerns,  please contact client services @ 713-290-9700.<br/><br/>
+	Thanks again for your business and loyalty to us.<br/><br/>
+
+	</p> 
+]]>
+  </body>
+
+<bodyRegeneration>
+    <![CDATA[
+    <p>Kindly ignore the following invoice (oldinvoiceid) and find attached the updated invoice for your reference.<br/><br/>
+
+	You can also log in the client portal (https://clientportal.poconnor.com) to view the details<br/><br/>
+	
+	If you have any questions/concerns,  please contact client services @ 713-290-9700.<br/><br/>
+	Thanks again for your business and loyalty to us.<br/><br/>
+
+	</p> 
+]]>
+  </bodyRegeneration>
+
+<bodyOutofTexas>
+    <![CDATA[
+    <p>Thank you for choosing "O'Connor & Associates" to assist you in saving property taxes this year!<br/><br/>
+
+       A copy of your invoice is attached. Feel free to call us if you have any questions about the attached document.<br/><br/>
+	
+	To easily make a payment, simply visit the online portal @  https://clientportal.poconnor.com
+        or you can mail a check to Dept. 523, P.O. Box 4458, Houston, TX 77210.<br/><br/>
+        We appreciate your loyalty to us over the years! <br/><br/>
+	</p> 
+]]>
+  </bodyOutofTexas>
+
+<OutofTexasSincerely>
+    <![CDATA[
+  Sincerely,<br/>
+  Hotel Division<br/>
+  Hotel Helpline: 713-909-5804  <br/>
+  Corporate Office:<br/>
+  2200 North Loop West, Ste 310<br/>
+  Houston, TX  77018<br/>
+  www.hotelpropertytaxconsultant.com
+  ]]>
+  </OutofTexasSincerely>
+
+
+  <ResidetialSincerely>
+   <![CDATA[ <br/>
+Sincerely,<br/><br/>
+<img src="
+https://spartaxx.poconnor.com/content/images/logo/SignatureChanges/OconnorLogoResidential.png"
+/><br/>
+Client Services <br/>
+Property Tax Division<br/>
+Phone: 713-290-9700 or toll-free at 877-4TAXCUT<br/>
+Fax: 713-686-3255<br/>
+Email: proptax@poconnor.com<br/>
+Log on anytime to your portal at <a href="
+https://clientportal.poconnor.com/">clientportal.poconnor.com</a><br/>
+]]>
+  </ResidetialSincerely>
+
+  <CommercialSincerely>
+    <![CDATA[ <br/>
+Sincerely,<br/><br/>
+<img src="
+https://spartaxx.poconnor.com/content/images/logo/SignatureChanges/OconnorLogoCommercial.png"
+/><br/>
+Client Services <br/>
+Property Tax Division<br/>
+Phone: 713-290-9700 or toll-free at 877-4TAXCUT<br/>
+Fax: 713-686-3255<br/>
+Email: proptax@poconnor.com<br/>
+Log on anytime to your portal at <a href="
+https://clientportal.poconnor.com/">clientportal.poconnor.com</a><br/>
+]]>
+  </CommercialSincerely>
+</email>

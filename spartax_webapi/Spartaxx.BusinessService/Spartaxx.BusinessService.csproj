@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AE4D33AD-BA21-48EF-9B09-9476A07029B5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Spartaxx.BusinessService</RootNamespace>
+    <AssemblyName>Spartaxx.BusinessService</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PTaxClientPortal.Utilities, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SpartaxxSharedDLL\PTaxClientPortal.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Spartaxx.BusinessObjects">
+      <HintPath>..\..\SpartaxxSharedDLL\Spartaxx.BusinessObjects.dll</HintPath>
+    </Reference>
+    <Reference Include="Spartaxx.DataObjects, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SpartaxxSharedDLL\Spartaxx.DataObjects.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Implementation\AccountService.cs" />
+    <Compile Include="Implementation\AffidavitService.cs" />
+    <Compile Include="Implementation\ClientIndexService.cs" />
+    <Compile Include="Implementation\DeferredMaintenanceService.cs" />
+    <Compile Include="Implementation\ExistingClientService.cs" />
+    <Compile Include="Implementation\ClientSearchService.cs" />
+    <Compile Include="Implementation\CommonService.cs" />
+    <Compile Include="Implementation\EditInvoiceService.cs" />
+    <Compile Include="Implementation\HearingResultService.cs" />
+    <Compile Include="Implementation\HearingNoticeService.cs" />
+    <Compile Include="Implementation\InvoiceAdjustmentAuditService.cs" />
+    <Compile Include="Implementation\InvoiceDefectsService.cs" />
+    <Compile Include="Implementation\InvoiceFlatFeePreService.cs" />
+    <Compile Include="Implementation\InvoicePastdueConfigurationService.cs" />
+    <Compile Include="Implementation\InvoicePendingService.cs" />
+    <Compile Include="Implementation\InvoiceService.cs" />
+    <Compile Include="Implementation\InvoiceSpecialTermsService.cs" />
+    <Compile Include="Implementation\MainscreenInvoiceService.cs" />
+    <Compile Include="Implementation\TaskAllocationService.cs" />
+    <Compile Include="Interface\IAccountService.cs" />
+    <Compile Include="Interface\IAffidavitService.cs" />
+    <Compile Include="Interface\IClientIndexService.cs" />
+    <Compile Include="Interface\IClientSearchService.cs" />
+    <Compile Include="Interface\ICommonService.cs" />
+    <Compile Include="Interface\IDeferredMaintenanceService.cs" />
+    <Compile Include="Interface\IEditInvoiceService.cs" />
+    <Compile Include="Interface\IExistingClientService.cs" />
+    <Compile Include="Interface\IHearingResultService.cs" />
+    <Compile Include="Interface\IHearingNoticeService.cs" />
+    <Compile Include="Interface\IInvoiceAdjustmentAuditService.cs" />
+    <Compile Include="Interface\IInvoiceDefectsService.cs" />
+    <Compile Include="Interface\IInvoiceFlatFeePreService.cs" />
+    <Compile Include="Interface\IInvoicePastdueConfigurationService.cs" />
+    <Compile Include="Interface\IInvoicePendingService.cs" />
+    <Compile Include="Interface\IInvoiceService.cs" />
+    <Compile Include="Interface\IInvoiceSpecialTermsService.cs" />
+    <Compile Include="Interface\IMainscreenInvoiceService.cs" />
+    <Compile Include="Interface\ITaskAllocationService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Spartaxx.Common\Spartaxx.Common.csproj">
+      <Project>{31562709-13ba-46e4-82d5-17c74545adc8}</Project>
+      <Name>Spartaxx.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Spartaxx.DataAccess\Spartaxx.DataAccess.csproj">
+      <Project>{e6dafb9b-312b-41a0-b78e-ace209436175}</Project>
+      <Name>Spartaxx.DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
